@@ -81,8 +81,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="mx-3 md:container md:mx-auto my-5 p-5 rounded-xl  bg-cyan-600 min-h-[70vh] md:w-[40%]">
-        <h1 className='font-bold text-white text-center text-xl'>STask - Manage your todos at one place</h1>
+      <div className="mx-3 md:container md:mx-auto my-5 p-5 rounded-xl  bg-cyan-700 min-h-[70vh] md:w-[40%]">
+        <h1 className='font-bold text-white text-center text-2xl'>STask - Manage your todos at one place</h1>
         <div className="addTodo my-5">
 
           <h1 className='text-xl  font-bold p-2'>Add a Todo</h1>
@@ -96,7 +96,8 @@ function App() {
           </div>
 
         </div>
-        <input type="checkbox" className="mx-4" onChange={toggleFinished} checked={ShowFinished} /> Show Finished
+        <input type="checkbox" className="mx-4 my-3" onChange={toggleFinished} checked={ShowFinished} /> Show Finished
+        <div className='bg-cyan-950 opacity-30 h-[1px] w-[90%] mx-auto'></div>
         <h2 className='text-xl mx-3 my-1 font-bold p-2'>Your Todos</h2>
 
         <div className="todos  mx-4">
