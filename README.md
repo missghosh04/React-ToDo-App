@@ -19,3 +19,6 @@ A simple and responsive Todo application built with **React.js**, **Tailwind CSS
 - `uuid` package for unique task IDs
 - `localStorage` for data persistence
 
+## 📸 Preview
+ 
+![To Do App Screenshot](./To-Do-App-Screenshot.png)
